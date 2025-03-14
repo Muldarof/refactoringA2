@@ -47,4 +47,7 @@ class Province{
 
 }
 
-export {Province};
+export default function createProvince(data){
+    return new Province(data);
+}
+
