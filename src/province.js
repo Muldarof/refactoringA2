@@ -1,4 +1,4 @@
-export default class Province{
+class Province{
     constructor(doc){
         this._name = doc.name;
         this._producers = [];
@@ -46,3 +46,5 @@ export default class Province{
     }
 
 }
+
+export {Province};
