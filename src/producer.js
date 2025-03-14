@@ -1,4 +1,4 @@
-export default class Producer{
+class Producer{
     constructor(aProvince, data){
         this._province = aProvince;
         this._cost = data.cost;
@@ -19,3 +19,5 @@ export default class Producer{
 
 
 }
+
+export {Producer};

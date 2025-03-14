@@ -1,12 +1,12 @@
-import Province from "./province.js";
-import Producer from "./province.js";
-import {strict as assert} from 'assert';
-
+import {Province} from "./province.js";
+//import {Producer} from "./province.js";
+//import {strict as assert} from 'assert';
+//const assert = require('assert');
 
 function callMain(){
     const asia = new Province(sampleProvinceData());
-    assert.equal(asia.shortfall, 5);
-    
+    //assert.equal(asia.shortfall, 5);
+    console.assert(asia.shortfall === 5);
 }
 
 function sampleProvinceData(){
